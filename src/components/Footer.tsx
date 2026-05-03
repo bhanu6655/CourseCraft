@@ -9,11 +9,11 @@ export default function Footer() {
         </div>
         <div className="flex items-center gap-6">
           <span className="text-sm text-slate-300 font-medium">G Bhanuprakash</span>
-          <a href="#" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 text-sm">
+          <a href="https://github.com/bhanu6655" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 text-sm">
             <Globe className="w-4 h-4" />
             GitHub
           </a>
-          <a href="#" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 text-sm">
+          <a href="https://www.linkedin.com/in/g-bhanuprakash-527507259/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 text-sm">
             <Link2 className="w-4 h-4" />
             LinkedIn
           </a>
