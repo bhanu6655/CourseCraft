@@ -18,7 +18,7 @@ export async function POST(request: Request) {
       }, { status: 500 });
     }
 
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 
     const prompt = `
       You are an expert educator. Create a 3-question multiple choice quiz based on the following topic.
